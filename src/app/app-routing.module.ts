@@ -15,6 +15,10 @@ const routes: Routes = [
     path: 'jenna-first',
     loadChildren: () => import('./jenna-first/jenna-first.module').then( m => m.JennaFirstPageModule)
   },
+  {
+    path: 'lincoln',
+    loadChildren: () => import('./lincoln/lincoln.module').then( m => m.LincolnPageModule)
+  },
 ];
 
 @NgModule({
