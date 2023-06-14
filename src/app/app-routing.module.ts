@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'jenna-first',
+    loadChildren: () => import('./jenna-first/jenna-first.module').then( m => m.JennaFirstPageModule)
+  },
 ];
 
 @NgModule({
