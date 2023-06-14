@@ -15,6 +15,10 @@ const routes: Routes = [
     path: 'jfirst',
     loadChildren: () => import('./jfirst/jfirst.module').then( m => m.JfirstPageModule)
   },
+  {
+    path: 'nehomepage',
+    loadChildren: () => import('./nehomepage/nehomepage.module').then( m => m.NEHomepagePageModule)
+  },
 ];
 
 @NgModule({
