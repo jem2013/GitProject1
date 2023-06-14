@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'jfirst',
+    loadChildren: () => import('./jfirst/jfirst.module').then( m => m.JfirstPageModule)
+  },
 ];
 
 @NgModule({
