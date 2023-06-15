@@ -19,6 +19,10 @@ const routes: Routes = [
     path: 'nehomepage',
     loadChildren: () => import('./nehomepage/nehomepage.module').then( m => m.NEHomepagePageModule)
   },
+  {
+    path: 'Lincoln',
+    loadChildren: () => import('./lincoln/lincoln.module').then( m => m.LincolnPageModule)
+  },
 ];
 
 @NgModule({
