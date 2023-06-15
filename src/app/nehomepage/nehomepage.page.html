@@ -1,0 +1,42 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Nebraska</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content [fullscreen]="true">
+  <img class="smallerimage" src="https://bloximages.chicago2.vip.townnews.com/journalstar.com/content/tncms/assets/v3/editorial/0/97/0974e2ca-6a25-11e4-b38f-f30a889f1893/5bef1f22e59e3.preview.jpg?crop=1050%2C551%2C0%2C99&resize=1050%2C551&order=crop%2Cresize">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">NEHomepage</ion-title>
+    </ion-toolbar>
+  </ion-header>
+</ion-content>
+
+<ion-grid>
+  <ion-row>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Lincoln</ion-card-title>
+        <ion-card-subtitle>City in Nebraska</ion-card-subtitle>
+      </ion-card-header>
+    
+      <ion-card-content>
+        <ion-button >To Lincoln Page</ion-button>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Wayne</ion-card-title>
+        <ion-card-subtitle>City in Nebraska</ion-card-subtitle>
+      </ion-card-header>
+  
+    
+      <ion-card-content>
+        <ion-button (click)="goToPage('/jfirst')">To Wayne Page</ion-button>
+      </ion-card-content>
+    </ion-card>
+  </ion-row>
+</ion-grid>

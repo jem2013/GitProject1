@@ -12,12 +12,12 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'jenna-first',
-    loadChildren: () => import('./jenna-first/jenna-first.module').then( m => m.JennaFirstPageModule)
+    path: 'jfirst',
+    loadChildren: () => import('./jfirst/jfirst.module').then( m => m.JfirstPageModule)
   },
   {
-    path: 'lincoln',
-    loadChildren: () => import('./lincoln/lincoln.module').then( m => m.LincolnPageModule)
+    path: 'nehomepage',
+    loadChildren: () => import('./nehomepage/nehomepage.module').then( m => m.NEHomepagePageModule)
   },
 ];
 
